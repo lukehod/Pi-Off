@@ -36,11 +36,13 @@ Use an ESP8266-based arduino microcontroller ([D1 mini](https://docs.wemos.cc/en
 2. Unzip the files to a folder on your computer
 3. In the Arduino IDE goto `File`>`Open...` and select one of the files in the folder you unzipped (it should open the whole project no matter which you choose)
 4. Go to `wifi_power_button.h` and change the following settings for your network:
-   ```
-  #define USRSSID  "your wifi ssid"
-  #define USRPSK   "your wifi password"
-  ```
-  > _Optional_: Uncomment the appropriate lines in this file to enable mDNS and/or static IP if you would like.
+
+````
+#define USRSSID  "your wifi ssid"
+#define USRPSK   "your wifi password"
+````
+ 
+ > _Optional_: Uncomment the appropriate lines in this file to enable mDNS and/or static IP if you would like.
 
 5. Plug the D1 mini into your computer's USB port and hit the `Upload` button in the top right of the IDE to compile the code and upload it to your device.
 6. Go to `Tools`>`Serial Monitor` and make sure it is set to `115200` in the bottom right corner of the Serial Monitor.
