@@ -33,7 +33,7 @@ Use an ESP8266-based arduino microcontroller ([D1 mini](https://docs.wemos.cc/en
 
   > _OPTIONAL_: you can also fork the repository to your own GitHub account if you want to use source control on your own project.
 
-2. Unzip the files to a folder on your computer
+2. Unzip the files to a folder on your computer, and rename the folder to `wifi_power_button` so that the IDE will not give you an error when opening it.
 3. In the Arduino IDE goto `File`>`Open...` and select one of the files in the folder you unzipped (it should open the whole project no matter which you choose)
 4. Go to `wifi_power_button.h` and change the following settings for your network:
 
